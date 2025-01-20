@@ -1,4 +1,4 @@
-const audioSrc = "./Imgs/audio";
+const audioSrc = "./Imgs/audio.mp3";
 const volume = 0.4;
 const loop = true;
 
