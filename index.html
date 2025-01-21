@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Quiz</title>
     <link rel="stylesheet" href="./index.css">
+    
 </head>
 <body>
     <div class="container">
@@ -13,13 +14,14 @@
             
         </div>
         <div class="optionsContainer">
-            <div class="easyOption"><h1>Easy</h1></div>
-            <div class="mediumOption"><h1>Medium</h1></div>
-            <div class="hardOption"><h1>Hard</h1></div>
-        </div>
+            <a class="option" data-difficulty="easy"><div class="easyOption"><h1>Easy</h1></div></a>
+            <a class="option" data-difficulty="medium"><div class="mediumOption"><h1>Medium</h1></div></a>
+            <a class="option" data-difficulty="hard"><div class="hardOption"><h1>Hard</h1></div></a>
+          </div>
+          
     </div>
     
-    
-      <script src="./music.js"></script>
+    <script src="./exportOptions.js"></script>
+    <script src="./music.js"></script>
 </body>
 </html>
