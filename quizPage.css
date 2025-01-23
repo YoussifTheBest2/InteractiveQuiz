@@ -46,7 +46,7 @@ body {
     margin: 20px 0;
   }
   
-  .options {
+  .option-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -70,7 +70,7 @@ body {
     border-color: #ddd;
   }
   
-  .timer {
+  .score {
     font-size: 20px;
     color: purple;
     background-color: #eae0f8;
